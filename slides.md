@@ -15,7 +15,8 @@ Note: something else
 
 
 ### Version Control System
-Version control is the practice of **tracking** and **managing changes** to software code. <!-- .element: class="fragment" data-fragment-index="1" -->
+
+Version control is the practice of **tracking** and **managing changes** to software code.
 
 
 
@@ -162,18 +163,18 @@ Guide to writing good commits:
 
 
 Branching  
-- the default branch is "main" <!-- .element: class="fragment" data-fragment-index="1" -->
-- `git checkout -b <branchname>` will make a new branch <!-- .element: class="fragment" data-fragment-index="2" -->
-- to switch between branches use `git checkout <branchname>` <!-- .element: class="fragment" data-fragment-index="3" -->
-- to view your current branch, use `git branch` <!-- .element: class="fragment" data-fragment-index="4" -->
+- the default branch is "main"
+- `git checkout -b <branchname>` will make a new branch 
+- to switch between branches use `git checkout <branchname>` 
+- to view your current branch, use `git branch`
 
 
 
 Merging
-- since we now have branches with different features, we eventually need these features to come back to our production feature <!-- .element: class="fragment" data-fragment-index="1" -->
-- `git merge <branchname>` will merge `branchname` into the branch you are currently on. <!-- .element: class="fragment" data-fragment-index="2" -->
-- you could get a merge conflict <!-- .element: class="fragment" data-fragment-index="3" -->
-    - to fix merge conflicts, go to the file with the conflict, and resolve it (keep the version you want) and then stage the file once again. <!-- .element: class="fragment" data-fragment-index="4" -->
+- since we now have branches with different features, we eventually need these features to come back to our production feature
+- `git merge <branchname>` will merge `branchname` into the branch you are currently on.
+- you could get a merge conflict
+    - to fix merge conflicts, go to the file with the conflict, and resolve it (keep the version you want) and then stage the file once again.
 
 
 
