@@ -1,5 +1,4 @@
-### Git Gud
-#### A Dummies Guide to Git
+### Intro to Git
 Note:
 
 
@@ -40,11 +39,16 @@ They're providing a service. <!-- .element: class="fragment" data-fragment-index
 
 
 
-Before we go any further...
+Where do I get git?
 
 
 
-The tree analogy
+##### [https://git-scm.com/downloads](https://git-scm.com/)
+Linux users - you probably have this pre-installed
+
+
+
+How does Git work?
 
 
 
@@ -65,15 +69,6 @@ The tree analogy
 
 
 ![Tree with Commit](images/treecommitlabel.png)
-
-
-
-Where do I get git?
-
-
-
-##### [https://git-scm.com/downloads](https://git-scm.com/)
-Linux users - you probably have this pre-installed
 
 
 
@@ -111,6 +106,10 @@ Combining related changes, and preparing them for a commit <!-- .element: class=
 
 
 `git add [file/files/wildcard expansion]`
+
+
+
+Use the `git status` commit to see what files are being tracked/modified
 
 
 
